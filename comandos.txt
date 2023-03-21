@@ -1,0 +1,10 @@
+Executar arquivo no prompt comando:
+
+ - node 'nome do arquivo'.js;
+
+
+-___________________________________
+
+require('local do modulo || modulo nativo')
+
+

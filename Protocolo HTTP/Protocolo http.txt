@@ -1,0 +1,18 @@
+http 
+
+cria variavel chama o modulo http
+
+  - const http = require('http');
+
+depois cria o servidor
+
+ - http.createServer('para criar servidor || coloque uma function de mensagem teste').listen('porta para executar o server');
+
+
+a function dentro do createServer dev ter doi parametros: 
+ - o req 
+ - o res - para da retorno com mensagem;
+
+function(req,res){
+ res.end('coloca a mensagem');
+}
